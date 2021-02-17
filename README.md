@@ -71,6 +71,7 @@ shear_style = "reduced"
 # source id style
 #    "none": no source id in first column (default)
 #   "index": integer source id in first column
+#   "somcell": integer source id in first column, integer SOMCELL id in second column
 
 sourceid_style = "index"
 
