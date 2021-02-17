@@ -241,9 +241,14 @@ You can pass catalogs with an integer source ID in the first column (with
 sourceid_style="index") or no ID (with sourceid_style="none", in which case the first 
 column is expected to contain ra).
 
+There is also the option to include a SOMPZ cell id, (with sourceid_style="somcell")
+
 ```
 In sourceid_style = "index", add a first column such that source catalogs now look like
-        id ra dec g1 g2 ... 
+        id ra dec g1 g2 ...
+
+In sourceid_style = "somcell", add a first and second column such that source catalogs now look like
+        id somcell_id ra dec g1 g2 ...
 ```
 
 Meaning of columns:
